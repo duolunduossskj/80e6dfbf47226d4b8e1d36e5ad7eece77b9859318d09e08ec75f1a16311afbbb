@@ -3,28 +3,28 @@ name: duolunduossskj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 0/6 * * *'
-jobs:  # 10717
+    - cron: '18 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duolunduossskj
         env:
-          s0347: ${{ secrets.s0347 }}
+          e13: ${{ secrets.e13 }}
         run: |
-          echo $s0347 | jq -r .b6 | /bin/bash
-          echo $pf561 | jq -r .dh31718 | /bin/bash
-          echo $h8782 | jq -r .avqj755 | /bin/bash
-          echo $rb0297 | jq -r .j82656 | /bin/bash
-          echo $dxv45350 | jq -r .f31200 | /bin/bash
-          echo $bdf54808 | jq -r .vk631 | /bin/bash
-          echo $zb13881 | jq -r .rqa9311 | /bin/bash
-          echo $eza27 | jq -r .d849 | /bin/bash
-          echo $jxok910 | jq -r .atk4 | /bin/bash
-          echo $ugnjc081 | jq -r .a6039 | /bin/bash
-          echo $wvzk80 | jq -r .hxmr407 | /bin/bash
-          echo $t2034 | jq -r .dmuc33367 | /bin/bash
-          echo $roda44465 | jq -r .mdp4609 | /bin/bash
-          echo $cpeno98 | jq -r .t932 | /bin/bash
+          echo $e13 | jq -r .met0266 | /bin/bash
+          echo $myg09 | jq -r .jsl517 | /bin/bash
+          echo $hwglm349 | jq -r .tjlzf412 | /bin/bash
+          echo $wqals4 | jq -r .fbntn47963 | /bin/bash
+          echo $quid21743 | jq -r .dx2162 | /bin/bash
+          echo $ptje7395 | jq -r .n86 | /bin/bash
+          echo $waoof770 | jq -r .wy248 | /bin/bash
+          echo $fpz65 | jq -r .u59 | /bin/bash
+          echo $km4712 | jq -r .hsryv00372 | /bin/bash
+          echo $f64465 | jq -r .iq35 | /bin/bash
+          echo $hyg43512 | jq -r .h21 | /bin/bash
+          echo $yesq9 | jq -r .mc14 | /bin/bash
+          echo $bz294 | jq -r .versq68 | /bin/bash
 
