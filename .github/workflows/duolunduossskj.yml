@@ -3,7 +3,8 @@ name: duolunduossskj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
+    - cron: '41 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: duolunduossskj
         env:
-          e13: ${{ secrets.e13 }}
+          gbwv8098: ${{ secrets.gbwv8098 }}
         run: |
-          echo $e13 | jq -r .met0266 | /bin/bash
-          echo $myg09 | jq -r .jsl517 | /bin/bash
-          echo $hwglm349 | jq -r .tjlzf412 | /bin/bash
-          echo $wqals4 | jq -r .fbntn47963 | /bin/bash
-          echo $quid21743 | jq -r .dx2162 | /bin/bash
-          echo $ptje7395 | jq -r .n86 | /bin/bash
-          echo $waoof770 | jq -r .wy248 | /bin/bash
-          echo $fpz65 | jq -r .u59 | /bin/bash
-          echo $km4712 | jq -r .hsryv00372 | /bin/bash
-          echo $f64465 | jq -r .iq35 | /bin/bash
-          echo $hyg43512 | jq -r .h21 | /bin/bash
-          echo $yesq9 | jq -r .mc14 | /bin/bash
-          echo $bz294 | jq -r .versq68 | /bin/bash
+          echo $gbwv8098 | jq -r .a9 | /bin/bash
+          echo $tl67683 | jq -r .usls6439 | /bin/bash
+          echo $ist54 | jq -r .gugix0638 | /bin/bash
+          echo $rmyfi439 | jq -r .vlx3256 | /bin/bash
+          echo $a7 | jq -r .rmqf9386 | /bin/bash
+          echo $d34 | jq -r .zud9820 | /bin/bash
+          echo $isa6800 | jq -r .tw3938 | /bin/bash
+          echo $bnzlx1542 | jq -r .d2 | /bin/bash
+          echo $cd74 | jq -r .azjg57828 | /bin/bash
+          echo $ed95 | jq -r .yr838 | /bin/bash
+          echo $bge62567 | jq -r .o372 | /bin/bash
+          echo $oqw9716 | jq -r .k67 | /bin/bash
+          echo $ob6337 | jq -r .p0308 | /bin/bash
+          echo $tgnp9906 | jq -r .qqjn10 | /bin/bash
+          echo $j4971 | jq -r .sg59 | /bin/bash
+          echo $hf4697 | jq -r .cdso10808 | /bin/bash
 
